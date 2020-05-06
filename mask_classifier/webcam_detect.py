@@ -10,7 +10,6 @@ from label_detect import classify_face
 mixer.init()
 sound = mixer.Sound('alarm.wav')
 
-
 #face = cv2.CascadeClassifier('/media/preeth/Data/prajna_files/Drowsiness_detection/haar_cascade_files/haarcascade_frontalface_alt.xml')
 cap = cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
