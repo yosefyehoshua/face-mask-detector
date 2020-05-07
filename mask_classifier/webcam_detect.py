@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 score=0
 thicc=2
-#faces = face.detectMultiScale(gray,minNeighbors=5,scaleFactor=1.1,minSize=(25,25))
+#faces cd= face.detectMultiScale(gray,minNeighbors=5,scaleFactor=1.1,minSize=(25,25))
 while(True):
     ret, frame = cap.read()
     height,width = frame.shape[:2]
